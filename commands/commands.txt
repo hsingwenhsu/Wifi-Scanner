@@ -1,0 +1,3 @@
+sudo iw wlp3s0 scan
+sudo iw wlp3s0 scan | egrep 'SSID|signal'
+nmcli dev wifi connect <myssid> password <mypassword>

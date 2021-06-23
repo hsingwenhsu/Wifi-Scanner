@@ -1,0 +1,21 @@
+{
+  "name": "wifi_scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chart.js": "^3.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "function-plot": "^1.22.7",
+    "react-loader-spinner": "^4.0.0",
+    "sweetalert2": "^11.0.17"
+  }
+}
